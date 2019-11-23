@@ -1,0 +1,57 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace proyecto_1
+{
+    public partial class Form2 : Form
+    {
+        public Form2()
+        {
+            InitializeComponent();
+        }
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnAceptar_Click(object sender, EventArgs e)
+        {
+            Form3 form3 = new Form3();
+
+            form3.lblApellido21.Text = this.txbApellido.Text;
+            form3.lblNombre21.Text = this.txbNombre.Text;
+            form3.lblDni21.Text = this.txbDni.Text;
+            form3.lblMorir21.Text = this.cmbMorir.Text;
+            form3.lblRelogiosa21.Text = this.cmbReligion.Text;
+
+            if (this.rbMasculino.Checked == true)
+            {
+                form3.lblSexo21.Text = this.rbMasculino.Text;
+            }
+
+            if (this.rbFemenino.Checked == true)
+            {
+                form3.lblSexo21.Text = this.rbFemenino.Text;
+            }
+
+            if (this.rbOtros.Checked == true)
+            {
+                form3.lblSexo21.Text = this.rbOtros.Text;
+            }
+
+            this.Hide();
+            form3.ShowDialog();
+            this.Show();
+
+        }
+    }
+}
+

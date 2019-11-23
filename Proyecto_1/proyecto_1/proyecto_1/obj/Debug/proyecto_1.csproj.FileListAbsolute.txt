@@ -1,0 +1,14 @@
+C:\Users\Ezequiel\Desktop\Proyecto_1\proyecto_1\proyecto_1\bin\Debug\proyecto_1.exe.config
+C:\Users\Ezequiel\Desktop\Proyecto_1\proyecto_1\proyecto_1\bin\Debug\proyecto_1.exe
+C:\Users\Ezequiel\Desktop\Proyecto_1\proyecto_1\proyecto_1\bin\Debug\proyecto_1.pdb
+C:\Users\Ezequiel\Desktop\Proyecto_1\proyecto_1\proyecto_1\obj\Debug\proyecto_1.csprojAssemblyReference.cache
+C:\Users\Ezequiel\Desktop\Proyecto_1\proyecto_1\proyecto_1\obj\Debug\proyecto_1.Form1.resources
+C:\Users\Ezequiel\Desktop\Proyecto_1\proyecto_1\proyecto_1\obj\Debug\proyecto_1.Properties.Resources.resources
+C:\Users\Ezequiel\Desktop\Proyecto_1\proyecto_1\proyecto_1\obj\Debug\proyecto_1.csproj.GenerateResource.cache
+C:\Users\Ezequiel\Desktop\Proyecto_1\proyecto_1\proyecto_1\obj\Debug\proyecto_1.exe
+C:\Users\Ezequiel\Desktop\Proyecto_1\proyecto_1\proyecto_1\obj\Debug\proyecto_1.pdb
+C:\Users\Ezequiel\Desktop\Proyecto_1\proyecto_1\proyecto_1\obj\Debug\proyecto_1.Form2.resources
+C:\Users\Ezequiel\Desktop\Proyecto_1\proyecto_1\proyecto_1\obj\Debug\proyecto_1.Form3.resources
+C:\Users\Ezequiel\Desktop\Proyecto_1\proyecto_1\proyecto_1\obj\Debug\proyecto_1.Form4.resources
+C:\Users\Ezequiel\Desktop\Proyecto_1\proyecto_1\proyecto_1\obj\Debug\proyecto_1.Form5.resources
+C:\Users\Ezequiel\Desktop\Proyecto_1\proyecto_1\proyecto_1\obj\Debug\proyecto_1.Form6.resources
