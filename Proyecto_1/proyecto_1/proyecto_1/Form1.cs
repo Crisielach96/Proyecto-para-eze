@@ -24,11 +24,13 @@ namespace proyecto_1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form formulario2 = new Form2();
+            if (this.txtContraseña.Text != "" && this.txtUsuario.Text != "") {
+                Form formulario2 = new Form2();
 
-            this.Hide();
-            formulario2.ShowDialog();
-            this.Show();
+                this.Hide();
+                formulario2.ShowDialog();
+                this.Show();
+            } 
         }
     }
 }

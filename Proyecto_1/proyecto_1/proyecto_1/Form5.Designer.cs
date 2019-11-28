@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form5));
             this.button2 = new System.Windows.Forms.Button();
             this.btn = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -35,45 +36,63 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(253, 117);
+            this.button2.BackColor = System.Drawing.Color.Black;
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button2.Location = new System.Drawing.Point(257, 108);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.Size = new System.Drawing.Size(117, 32);
             this.button2.TabIndex = 5;
             this.button2.Text = "Cancelar";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // btn
             // 
-            this.btn.Location = new System.Drawing.Point(125, 117);
+            this.btn.BackColor = System.Drawing.Color.Black;
+            this.btn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btn.Location = new System.Drawing.Point(120, 108);
             this.btn.Name = "btn";
-            this.btn.Size = new System.Drawing.Size(75, 23);
+            this.btn.Size = new System.Drawing.Size(117, 32);
             this.btn.TabIndex = 4;
             this.btn.Text = "Aceptar";
-            this.btn.UseVisualStyleBackColor = true;
+            this.btn.UseVisualStyleBackColor = false;
             this.btn.Click += new System.EventHandler(this.btn_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label1.Location = new System.Drawing.Point(12, 33);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(413, 48);
+            this.label1.Size = new System.Drawing.Size(468, 50);
             this.label1.TabIndex = 3;
-            this.label1.Text = "¿Esta usted REALMENTE seguro de continuar?\r\nUna vez aceptado no hay vuelta atras";
+            this.label1.Text = "¿Está usted REALMENTE seguro de continuar?\r\nUna vez aceptado no hay vuelta atras";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // Form5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(443, 173);
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.BackColor = System.Drawing.Color.Maroon;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(498, 173);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.btn);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form5";
-            this.Text = "Form5";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Die Fast";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -1,0 +1,17 @@
+C:\Users\CSielach\Desktop\Proyecto_1\proyecto_1\proyecto_1\bin\Debug\Die Fast.exe.config
+C:\Users\CSielach\Desktop\Proyecto_1\proyecto_1\proyecto_1\bin\Debug\Die Fast.exe
+C:\Users\CSielach\Desktop\Proyecto_1\proyecto_1\proyecto_1\bin\Debug\Die Fast.pdb
+C:\Users\CSielach\Desktop\Proyecto_1\proyecto_1\proyecto_1\obj\Debug\DieFast.csprojAssemblyReference.cache
+C:\Users\CSielach\Desktop\Proyecto_1\proyecto_1\proyecto_1\obj\Debug\proyecto_1.Form1.resources
+C:\Users\CSielach\Desktop\Proyecto_1\proyecto_1\proyecto_1\obj\Debug\proyecto_1.Form2.resources
+C:\Users\CSielach\Desktop\Proyecto_1\proyecto_1\proyecto_1\obj\Debug\proyecto_1.Form3.resources
+C:\Users\CSielach\Desktop\Proyecto_1\proyecto_1\proyecto_1\obj\Debug\proyecto_1.Form4.resources
+C:\Users\CSielach\Desktop\Proyecto_1\proyecto_1\proyecto_1\obj\Debug\proyecto_1.Form5.resources
+C:\Users\CSielach\Desktop\Proyecto_1\proyecto_1\proyecto_1\obj\Debug\proyecto_1.Form6.resources
+C:\Users\CSielach\Desktop\Proyecto_1\proyecto_1\proyecto_1\obj\Debug\proyecto_1.Form7.resources
+C:\Users\CSielach\Desktop\Proyecto_1\proyecto_1\proyecto_1\obj\Debug\proyecto_1.Form8.resources
+C:\Users\CSielach\Desktop\Proyecto_1\proyecto_1\proyecto_1\obj\Debug\proyecto_1.Form9.resources
+C:\Users\CSielach\Desktop\Proyecto_1\proyecto_1\proyecto_1\obj\Debug\DieFast.Properties.Resources.resources
+C:\Users\CSielach\Desktop\Proyecto_1\proyecto_1\proyecto_1\obj\Debug\DieFast.csproj.GenerateResource.cache
+C:\Users\CSielach\Desktop\Proyecto_1\proyecto_1\proyecto_1\obj\Debug\Die Fast.exe
+C:\Users\CSielach\Desktop\Proyecto_1\proyecto_1\proyecto_1\obj\Debug\Die Fast.pdb

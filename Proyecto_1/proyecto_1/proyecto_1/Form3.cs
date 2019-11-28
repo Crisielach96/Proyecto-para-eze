@@ -33,7 +33,7 @@ namespace proyecto_1
                 this.Show();
             }
             else {
-                this.lblError.Text = "Acepta los terminos si es que no quieres morir \nen este instante";
+                this.lblError.Text = "ACEPTE LOS TÉRMINOS Y CONDICIONES AHORA MISMO";
             }
         }
     }

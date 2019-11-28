@@ -24,33 +24,87 @@ namespace proyecto_1
 
         private void btnAceptar_Click(object sender, EventArgs e)
         {
-            Form3 form3 = new Form3();
-
-            form3.lblApellido21.Text = this.txbApellido.Text;
-            form3.lblNombre21.Text = this.txbNombre.Text;
-            form3.lblDni21.Text = this.txbDni.Text;
-            form3.lblMorir21.Text = this.cmbMorir.Text;
-            form3.lblRelogiosa21.Text = this.cmbReligion.Text;
-
-            if (this.rbMasculino.Checked == true)
+            if (this.txbApellido.Text != "" && this.txbNombre.Text != "" && this.txbDni.Text != "" && this.cmbMorir.Text != "" && this.cmbReligion.Text != "" && this.txbEdad.Text != "")
             {
-                form3.lblSexo21.Text = this.rbMasculino.Text;
+                if (this.rbFemenino.Checked == true || this.rbMasculino.Checked == true || this.rbOtros.Checked == true)
+                {
+                    Form3 form3 = new Form3();
+
+                    form3.lblApellido21.Text = this.txbApellido.Text;
+                    form3.lblNombre21.Text = this.txbNombre.Text;
+                    form3.lblDni21.Text = this.txbDni.Text;
+                    form3.lblMorir21.Text = this.cmbMorir.Text;
+                    form3.lblRelogiosa21.Text = this.cmbReligion.Text;
+                    form3.lblEdad21.Text = this.txbEdad.Text + " años";
+
+                    if (this.rbMasculino.Checked == true)
+                    {
+                        form3.lblSexo21.Text = this.rbMasculino.Text;
+                    }
+
+                    if (this.rbFemenino.Checked == true)
+                    {
+                        form3.lblSexo21.Text = this.rbFemenino.Text;
+                    }
+
+                    if (this.rbOtros.Checked == true)
+                    {
+                        form3.lblSexo21.Text = this.rbOtros.Text;
+                    }
+
+                    this.Hide();
+                    form3.ShowDialog();
+                    this.Show();
+
+                }
+
             }
 
-            if (this.rbFemenino.Checked == true)
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txbDni_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (Char.IsDigit(e.KeyChar))
             {
-                form3.lblSexo21.Text = this.rbFemenino.Text;
+                e.Handled = false;
             }
-
-            if (this.rbOtros.Checked == true)
+            else if (Char.IsControl(e.KeyChar))
             {
-                form3.lblSexo21.Text = this.rbOtros.Text;
+                e.Handled = false;
             }
+            else if (Char.IsSeparator(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+            else
+            {
+                e.Handled = true;
+            }
+        }
 
-            this.Hide();
-            form3.ShowDialog();
-            this.Show();
-
+        private void txbEdad_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (Char.IsDigit(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+            else if (Char.IsControl(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+            else if (Char.IsSeparator(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+            else
+            {
+                e.Handled = true;
+            }
         }
     }
 }

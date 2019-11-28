@@ -16,5 +16,23 @@ namespace proyecto_1
         {
             InitializeComponent();
         }
+        private void btnSi_Click(object sender, EventArgs e)
+        {
+            Form8 form8 = new Form8();
+
+            this.Hide();
+            form8.ShowDialog();
+            this.Show();
+        }
+
+        private void btnNo_Click(object sender, EventArgs e)
+        {
+            this.lblError.Text = "ERROR COMMAND NOT FOUND";
+        }
+
+        private void Form7_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
